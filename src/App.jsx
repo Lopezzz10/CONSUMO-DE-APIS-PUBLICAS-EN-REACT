@@ -33,7 +33,6 @@ function App() {
   return (
     <main className="contenedor">
       <h1 className="titulo">Rick and Morty</h1>
-      {}
       <section className="grid">
         {personajes.map((personaje) => (
           <PersonajeCard key={personaje.id} personaje={personaje} />
